@@ -1,0 +1,112 @@
+body{
+	background-color:white;
+	background:0;
+}
+#colorSpeed{
+	height:16px;
+	resize:none;
+}
+*{
+	margin:0px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+#buttonBox{
+	position:fixed;
+	margin-left:2px;
+	display:inline-block;
+}
+h4{
+	margin:0px;
+	margin-bottom:2px;
+	display:inline-block;
+}
+.buttonOuter{
+	width:50px;
+	margin-left:20px;
+	text-align:left;
+	padding:2px;
+	display:inline-block;
+	position:relative;
+	margin-right:-30px;
+}
+.button{
+	font-size:12px;
+	border-style:solid;
+	border-color:blue;
+	border-width:1px;
+	border-radius:5px;
+	display:inline-block;
+	padding:2px;
+	padding-left:4px;
+	padding-right:4px;	
+	cursor:pointer;
+}
+.button:hover{
+	background-color:rgb(255,255,212);
+}
+
+#wiggleFactor{
+/*
+	-webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: -moz-text;
+	-o-user-select: text;
+	user-select: text;
+	*/
+}
+#buttonsContainer{
+	/*
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	user-select: none;
+	*/
+	
+	margin:0px;
+	padding:1px;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	position:fixed;
+	width:130px;
+	height:200px;
+	
+}
+.buttons{
+	z-index:1000;
+	text-align:center;
+	padding:0px;
+	position:absolute;
+	display:inline-block;
+	/*
+	position:fixed;
+	*/
+}
+#colorSpeed{
+
+	width:30px;
+	display:inline-block;
+/*	
+	-webkit-user-select: element;
+	-khtml-user-select: element;
+	-moz-user-select: -moz-element;
+	-o-user-select: element;
+	user-select: element;
+	*/
+}
+.newDiv{
+	height:100px;
+	width:100px;
+	border-radius:100px;
+	position:absolute;
+}
+
+div{
+
+}
