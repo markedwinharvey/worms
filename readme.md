@@ -1,0 +1,1 @@
+worms is an html gui for drawing colorful worm-like divs, driven by javascript. Basic functionality allows multiple worms to be drawn. Current work is focused on adding user-selectable elements of animation. 
